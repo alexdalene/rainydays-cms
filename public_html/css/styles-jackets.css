@@ -1,0 +1,228 @@
+/* Import CSS */
+
+@import url(library/variables.css);
+@import url(library/reset.css);
+@import url(library/navbar.css);
+@import url(library/footer.css);
+
+/* Main */
+
+.container {
+    width: 95%;
+    margin: 5rem auto;
+}
+
+/* Cover header */
+
+.cover-img-container {
+    height: 400px;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    background-image: url(../images/cover-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+    margin-bottom: 2rem;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Sorting buttons */
+
+.container-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-style {
+    border: 1px solid black;
+    height: 3rem;
+    width: 8rem;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    transition: 150ms ease;
+    color: black;
+}
+
+.btn-style:hover {
+    background-color: #ededed;
+}
+
+.container-btn-left {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Jackets */
+
+.container-jacket {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5rem;
+    margin: 2rem auto;
+    margin-bottom: 20%;
+}
+
+
+.container-jacket-item {
+    width: calc(100% / 5);
+    width: 20rem;
+    height: 35rem;
+    flex-grow: 1;
+    transition: 300ms ease;
+    transition-delay: 300ms;
+    flex-direction: column;
+}
+
+.container-jacket-item:hover {
+    flex-grow: 4;
+}
+
+.jacket-img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ededed;
+    flex: 3;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: 300ms ease;
+    transition-delay: 300ms;
+}
+
+.jacket-img:hover {
+    background-color: #d3d3d3;
+}
+
+.jacket-img img {
+    height: 100%;
+}
+
+.jacket-img a {
+    width: 100%;
+}
+
+.jacket-footer {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    line-height: 1.4;
+}
+
+.jacket-footer p {
+    font-size: 18px;
+}
+
+.jacket-color {
+    margin: 0.7rem 0;
+}
+
+/* Start of very boring but necessary code below */
+
+.jack-1-1 {
+    color: #fd3f26;
+    margin-right: 0.2rem;
+}
+
+.jack-1-2 {
+    color: #2c2c2c;
+}
+
+.jack-2-1 {
+    color: #2c2c2c;
+    margin-right: 0.2rem;
+}
+
+.jack-2-2 {
+    color: #c0c0c0;
+}
+
+.jack-3-1 {
+    color: #f51c1c;
+    margin-right: 0.2rem;
+}
+
+.jack-3-2 {
+    color: #252525;
+}
+
+.jack-4-1 {
+    color: #252525;
+    margin-right: 0.2rem;
+}
+
+.jack-4-2 {
+    color: #dbdbdb;
+}
+
+.jack-5-1 {
+    color: #252525;
+    margin-right: 0.2rem;
+}
+
+.jack-5-2 {
+    color: #eed04a;
+}
+
+.jack-6-1 {
+    color: #252525;
+    margin-right: 0.2rem;
+}
+
+.jack-6-2 {
+    color: #ee4a4a;
+}
+
+.jack-7-1 {
+    color: #616b46;
+    margin-right: 0.2rem;
+}
+
+.jack-7-2 {
+    color: #3a3a3a;
+}
+
+.jack-8-1 {
+    color: #2749df;
+    margin-right: 0.2rem;
+}
+
+.jack-8-2 {
+    color: #ece933;
+}
+
+/* The end. */
+
+.fa-circle {
+    transition: 150ms ease;
+}
+
+.fa-circle:hover {
+    outline: 1px solid black;
+    outline-offset: 3px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 820px) {
+    .container-btn-left {
+        gap: 0;
+    }
+}

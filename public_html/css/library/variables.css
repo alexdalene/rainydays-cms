@@ -1,0 +1,26 @@
+/* Flex */
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-ali-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-jus-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Root */
+
+:root {
+    font-family: 'Poppins', sans-serif;
+
+    --var-primary-color: #EB5160;
+    --var-secondary-color: #071013;
+}
