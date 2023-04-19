@@ -20,7 +20,8 @@
 
 .main-container {
     flex-direction: column;
-    max-width: 95%;
+    width: 95%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 

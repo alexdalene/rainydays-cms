@@ -8,7 +8,8 @@
 /* Main */
 
 .container-main {
-    max-width: 95%;
+    width: 95%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
