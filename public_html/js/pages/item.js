@@ -2,6 +2,7 @@ const queryString = document.location.search;
 
 const params = new URLSearchParams(queryString);
 const postId = params.get("id");
+console.log(postId);
 
 async function getJackets() {
   const response = await fetch(
@@ -44,7 +45,7 @@ function makeJacket(jacket) {
             <button class="btn-style">XL</button>
           </section>
           <button class="cart-btn">
-            <a href="checkout.html">Add to cart</a>
+            <a href="checkout.html?id=${jacket.id}">Add to cart</a>
           </button>
         </aside>
   `;

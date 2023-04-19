@@ -71,21 +71,21 @@
 
 .menu-list a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .menu-list a:hover {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .burger-menu {
     background: transparent;
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .burger-menu:hover {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .overlay {
