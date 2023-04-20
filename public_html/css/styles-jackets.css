@@ -87,7 +87,6 @@
 
 
 .container-jacket-item {
-    width: calc(100% / 5);
     width: 20rem;
     height: 35rem;
     flex-grow: 1;
