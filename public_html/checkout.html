@@ -124,7 +124,6 @@
               <div class="color-name flex-jus-center">
                 <div class="test flex-ali-center"></div>
               </div>
-              <h2>€50.99</h2>
             </div>
             <div class="buttons">
               <div>
@@ -146,34 +145,29 @@
           <section class="container-info">
             <section class="info flex-center">
               <div class="online-pickup flex-center">
-                <input type="radio" name="order" id="online" checked />
+                <input
+                  type="radio"
+                  name="order"
+                  id="online"
+                  value="shipping"
+                  checked
+                />
                 <label for="online" class="btn-order">Shipping</label>
-                <input type="radio" name="order" id="pickup" />
+                <input type="radio" name="order" id="pickup" value="pickup" />
                 <label for="pickup" class="btn-order">Pickup</label>
               </div>
               <hr />
               <h2>Total sum</h2>
-              <div class="small-info">
-                <p>Jacket - Mountain Range</p>
-                <p>€50.99</p>
-              </div>
-              <div class="small-info">
-                <p>Shipping</p>
-                <p>€8</p>
-              </div>
+              <div class="small-info small-info-title"></div>
+              <div class="small-info small-info-shipping"></div>
               <hr />
-              <div class="small-info">
-                <p class="total">Total</p>
-                <p class="total">€58.99</p>
-              </div>
+              <div class="small-info small-info-total"></div>
               <p id="discount">Add/remove discount code</p>
             </section>
-            <button class="buy-btn">
-              <a href="success.html"
-                >Pay with VISA <i class="fa-solid fa-credit-card"></i>
-                <p id="visa-end">(... 1243)</p></a
-              >
-            </button>
+            <a href="success.html" class="buy-btn flex-center"
+              >Pay with VISA <i class="fa-solid fa-credit-card"></i>
+              <span id="visa-end">(... 1243)</span></a
+            >
           </section>
         </section>
       </section>

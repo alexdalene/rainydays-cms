@@ -103,6 +103,11 @@
     color: black;
 }
 
+.btn-style:nth-child(3) {
+    background-color: black;
+    color: white;
+}
+
 .btn-style:hover {
     background-color: #ededed;
 }
@@ -117,13 +122,9 @@
     background-color: #00A676;
     width: 100%;
     height: 3rem;
-}
-
-.cart-btn a {
     color: white;
-    font-size: 18px;
-    font-weight: 600;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .cart-btn:visited a {
@@ -149,15 +150,6 @@
 
 .jacket-color {
     margin: 0.7rem 0;
-}
-
-.jack-1-1 {
-    color: #fd3f26;
-    margin-right: 0.2rem;
-}
-
-.jack-1-2 {
-    color: #2c2c2c;
 }
 
 /* Media Queries */

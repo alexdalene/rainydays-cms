@@ -69,11 +69,6 @@
     flex-direction: column;
 }
 
-.jack-1-1 {
-    color: #fd3f26;
-    margin-right: 0.2rem;
-}
-
 .test {
     gap: 10px;
     line-height: 1.5;
@@ -180,6 +175,10 @@
     font-weight: 600;
 }
 
+#total-price::before {
+    content: "kr ";
+}
+
 /* Buy button */
 
 .buy-btn {
@@ -190,12 +189,9 @@
     height: 40px;
     margin-top: 1rem;
     background-color: #00A676;
-    color: white;
-}
-
-.buy-btn a {
     text-decoration: none;
     color: white;
+    gap: 0.5rem;
 }
 
 .buy-btn:hover {

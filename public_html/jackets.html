@@ -128,17 +128,21 @@
       <nav class="container-btn flex-ali-center">
         <section class="container-btn-left flex-ali-center">
           <select class="btn-style" name="type" id="type">
-            <option value="All" selected>All</option>
+            <option value="All" selected>Type</option>
             <option value="Sport">Sport</option>
             <option value="Work">Work</option>
           </select>
-          <button class="btn-style">
-            <i class="fas fa-caret-down"></i> Size
-          </button>
+          <select name="size" id="size" class="btn-style">
+            <option value="" selected>Size</option>
+            <option value="">Adult</option>
+            <option value="">Children</option>
+          </select>
         </section>
-        <button class="btn-style">
-          <i class="fas fa-sort"></i> Popularity
-        </button>
+        <select name="order" id="order" class="btn-style">
+          <option value="" selected>Sort by</option>
+          <option value="">Popularity</option>
+          <option value="">Price</option>
+        </select>
       </nav>
 
       <section class="container-jacket flex-center"></section>

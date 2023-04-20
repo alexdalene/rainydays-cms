@@ -54,7 +54,6 @@
     background-color: white;
     font-size: 14px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
     padding: 0.5rem;
@@ -66,9 +65,14 @@
     background-color: #ededed;
 }
 
+.btn-style option:first-child {
+    font-weight: 700;
+}
+
 .container-btn-left {
     display: flex;
     gap: 1rem;
+    position: relative;
 }
 
 /* Jackets */
@@ -133,80 +137,6 @@
 
 .jacket-color {
     margin: 0.7rem 0;
-}
-
-/* Start of very boring but necessary code below */
-
-.jack-1-1 {
-    color: #fd3f26;
-    margin-right: 0.2rem;
-}
-
-.jack-1-2 {
-    color: #2c2c2c;
-}
-
-.jack-2-1 {
-    color: #2c2c2c;
-    margin-right: 0.2rem;
-}
-
-.jack-2-2 {
-    color: #c0c0c0;
-}
-
-.jack-3-1 {
-    color: #f51c1c;
-    margin-right: 0.2rem;
-}
-
-.jack-3-2 {
-    color: #252525;
-}
-
-.jack-4-1 {
-    color: #252525;
-    margin-right: 0.2rem;
-}
-
-.jack-4-2 {
-    color: #dbdbdb;
-}
-
-.jack-5-1 {
-    color: #252525;
-    margin-right: 0.2rem;
-}
-
-.jack-5-2 {
-    color: #eed04a;
-}
-
-.jack-6-1 {
-    color: #252525;
-    margin-right: 0.2rem;
-}
-
-.jack-6-2 {
-    color: #ee4a4a;
-}
-
-.jack-7-1 {
-    color: #616b46;
-    margin-right: 0.2rem;
-}
-
-.jack-7-2 {
-    color: #3a3a3a;
-}
-
-.jack-8-1 {
-    color: #2749df;
-    margin-right: 0.2rem;
-}
-
-.jack-8-2 {
-    color: #ece933;
 }
 
 /* The end. */

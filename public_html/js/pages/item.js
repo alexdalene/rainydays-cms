@@ -29,7 +29,7 @@ function makeJacket(jacket) {
           <footer class="jacket-footer">
             <h2>RAINYDAYS</h2>
             <h3>${jacket.name}</h3>
-            <p${jacket.price_html}</p>
+            <p>${jacket.price_html}</p>
           </footer>
           <p>
             ${jacket.description}
@@ -44,9 +44,7 @@ function makeJacket(jacket) {
             <button class="btn-style">L</button>
             <button class="btn-style">XL</button>
           </section>
-          <button class="cart-btn">
-            <a href="checkout.html?id=${jacket.id}">Add to cart</a>
-          </button>
+            <a href="checkout.html?id=${jacket.id}" class="cart-btn flex-center">Add to cart</a>
         </aside>
   `;
 }
